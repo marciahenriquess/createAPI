@@ -1,38 +1,73 @@
-# :desktop_computer: Construindo uma API com NestJS, PostgreSQL e Docker com autenticação JWT.  
+<p align="center">
+  <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
+</p>
 
-## :books: Sumário:  
+[circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
+[circleci-url]: https://circleci.com/gh/nestjs/nest
 
+  <p align="center">A progressive <a href="http://nodejs.org" target="_blank">Node.js</a> framework for building efficient and scalable server-side applications.</p>
+    <p align="center">
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/v/@nestjs/core.svg" alt="NPM Version" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/l/@nestjs/core.svg" alt="Package License" /></a>
+<a href="https://www.npmjs.com/~nestjscore" target="_blank"><img src="https://img.shields.io/npm/dm/@nestjs/common.svg" alt="NPM Downloads" /></a>
+<a href="https://circleci.com/gh/nestjs/nest" target="_blank"><img src="https://img.shields.io/circleci/build/github/nestjs/nest/master" alt="CircleCI" /></a>
+<a href="https://coveralls.io/github/nestjs/nest?branch=master" target="_blank"><img src="https://coveralls.io/repos/github/nestjs/nest/badge.svg?branch=master#9" alt="Coverage" /></a>
+<a href="https://discord.gg/G7Qnnhy" target="_blank"><img src="https://img.shields.io/badge/discord-online-brightgreen.svg" alt="Discord"/></a>
+<a href="https://opencollective.com/nest#backer" target="_blank"><img src="https://opencollective.com/nest/backers/badge.svg" alt="Backers on Open Collective" /></a>
+<a href="https://opencollective.com/nest#sponsor" target="_blank"><img src="https://opencollective.com/nest/sponsors/badge.svg" alt="Sponsors on Open Collective" /></a>
+  <a href="https://paypal.me/kamilmysliwiec" target="_blank"><img src="https://img.shields.io/badge/Donate-PayPal-ff3f59.svg"/></a>
+    <a href="https://opencollective.com/nest#sponsor"  target="_blank"><img src="https://img.shields.io/badge/Support%20us-Open%20Collective-41B883.svg" alt="Support us"></a>
+  <a href="https://twitter.com/nestframework" target="_blank"><img src="https://img.shields.io/twitter/follow/nestframework.svg?style=social&label=Follow"></a>
+</p>
+  <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
+  [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
+## Description
 
+[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## :fleur_de_lis: Conceitos das ferramentas utilizadas: 
+## Installation
 
-* Nest.js é um conjunto de ferramentas que ajuda os desenvolvedores a criar aplicativos web em Node.js usando TypeScript. Ele oferece recursos avançados para tornar o desenvolvimento mais rápido e eficiente, e a manutenção mais fácil ao longo do tempo.  
+```bash
+$ npm install
+```
 
-* PostgreSQL é um banco de dados objeto-relacional (sem relação com linguagens de programação orientadas a objetos), em que cada coisa criada é tratada como um objeto, tais como bancos de dados, tabelas, views, triggers, etc.
+## Running the app
 
-* Docker é uma forma de virtualizar aplicações no conceito de “containers”, trazendo da web ou de seu repositório interno uma imagem completa, incluindo todas as dependências necessárias para executar sua aplicação.  
+```bash
+# development
+$ npm run start
 
-* Docker Compose é uma ferramenta do Docker usada para executar aplicativos de vários containers. Com um comando, através do arquivo YAML é possível criar todos os serviços de configuração: services, volumes e a rede do aplicativo.   
+# watch mode
+$ npm run start:dev
 
-* Prisma é uma ferramenta de mapeamento objeto-relacional que simplifica o trabalho com bancos de dados SQL em aplicativos modernos. Ele oferece uma interface fácil de usar para consultar e manipular bancos de dados usando uma linguagem de consulta tipada e suporta recursos avançados, como migrações de banco de dados e caching de consultas.
+# production mode
+$ npm run start:prod
+```
 
-* JWT "JSON Web Token" (Token Web JSON, em português) é um formato padrão de token que é usado para representar informações de forma segura entre duas partes, geralmente um servidor e um cliente.  
- 
- 
-  
-## 📋 Pré-requisitos
-> Ter o Docker e Docker Compose instalados em seu computador.
+## Test
 
+```bash
+# unit tests
+$ npm run test
 
-## 🔧 Instalação
-Docker
-> https://docs.docker.com/engine/install/
+# e2e tests
+$ npm run test:e2e
 
-Docker Compose
-> https://docs.docker.com/compose/install/linux/  
-> **Observação:** No Docker Desktop o Docker Compose já vem instalado.
+# test coverage
+$ npm run test:cov
+```
 
+## Support
 
-## 🚀 Começando  
-### 1. Primeiramente, crie um diretório para o seu projeto. 
+Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+
+## Stay in touch
+
+- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
+- Website - [https://nestjs.com](https://nestjs.com/)
+- Twitter - [@nestframework](https://twitter.com/nestframework)
+
+## License
+
+Nest is [MIT licensed](LICENSE).
